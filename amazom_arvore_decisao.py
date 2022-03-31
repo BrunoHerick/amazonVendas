@@ -8,7 +8,7 @@ from sklearn import tree
 
 #OBJECTIVE: predict the likelihood of a new order being rejected
 
-dados = pd.read_csv("/home/bhs/PROFISSIONAL/PYTHON/SCIKIT_LEARN/amazom_dados.csv")
+dados = pd.read_csv("/home/bhs/PROFISSIONAL/PYTHON/SCIKIT_LEARN/amazom/amazom_dados.csv")
 dados.fillna("---",inplace=True)
 
 dados_previsores = dados.iloc[:,0:9].values
